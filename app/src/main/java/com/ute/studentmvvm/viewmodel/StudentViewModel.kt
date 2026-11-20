@@ -10,6 +10,7 @@ import com.ute.studentmvvm.repository.StudentRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+
 class StudentViewModel(private val repository: StudentRepository) : ViewModel() {
     val allStudents: LiveData<List<Student>> = repository.allStudents.asLiveData(Dispatchers.IO)
 

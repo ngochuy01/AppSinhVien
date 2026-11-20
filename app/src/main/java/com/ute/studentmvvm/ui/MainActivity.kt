@@ -9,6 +9,7 @@ import com.ute.studentmvvm.repository.StudentRepository
 import com.ute.studentmvvm.viewmodel.StudentViewModel
 import com.ute.studentmvvm.viewmodel.StudentViewModelFactory
 
+
 class MainActivity : AppCompatActivity() {
 
     private val database by lazy { AppDatabase.getDatabase(this) }

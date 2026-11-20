@@ -15,6 +15,7 @@ import com.ute.studentmvvm.model.Student
 import com.ute.studentmvvm.ui.adapter.StudentAdapter
 import com.ute.studentmvvm.viewmodel.StudentViewModel
 
+
 class StudentListFragment : Fragment() {
 
     // Backing Property: Quản lý an toàn vòng đời ViewBinding của Fragment

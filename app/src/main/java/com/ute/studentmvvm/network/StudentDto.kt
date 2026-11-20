@@ -2,6 +2,7 @@ package com.ute.studentmvvm.network
 
 import com.ute.studentmvvm.model.Student
 
+
 data class StudentDto(
     val id: Int,
     val name: String,

@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.ute.studentmvvm.repository.StudentRepository
 
+
 class StudentViewModelFactory(
     private val repository: StudentRepository
 ) : ViewModelProvider.Factory {
